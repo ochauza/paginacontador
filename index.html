@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Las 3 metaetiquetas anteriores * deben * ser lo primero en la cabeza; cualquier otro contenido principal debe venir * después * de estas etiquetas -->
-  <title>Contadores Cali</title>
+  <title>Contador publico</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,41 +16,37 @@
   <link href="css/style.css" rel="stylesheet" />
 </head>
 
-
 <body>
+  <header id="header">
+    <nav class="navbar navbar-default navbar-static-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Contador publico</h1></a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html" class="active">Inicio</a></li>
+              <li role="presentation"><a href="about.html">Acerca de</a></li>
+              <li role="presentation"><a href="services.html">Servicios</a></li>
+              <li role="presentation"><a href="contact.html">Contactenos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.container-->
+    </nav>
+    <!--/nav-->
+  </header>
   <!--/header-->
-<header id="header">
-  <nav class="navbar navbar-default navbar-static-top" role="banner">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div class="navbar-brand">
-          <a href="index.html">
-            <h1>Contador publico</h1>
-          </a>
-        </div>
-      </div>
-      <div class="navbar-collapse collapse">
-        <div class="menu">
-          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation"><a href="index.html" class="active">Inicio</a></li>
-            <li role="presentation"><a href="about.html">Acerca de</a></li>
-            <li role="presentation"><a href="services.html">Servicios</a></li>
-            <li role="presentation"><a href="contact.html">Contactenos</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!--/.container-->
-  </nav>
-  <!--/nav-->
-</header>
-  
 
   <div class="slider">
     <div id="about-slider">
@@ -62,58 +58,79 @@
           <li data-target="#carousel-slider" data-slide-to="2"></li>
         </ol>
 
-        <div class="item">
-          <img src="img/contaduria3.jpg" class="img-responsive">
-          <div class="carousel-caption">
-            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-              <h2>Servicio de asesoria contable</h2>
-              <h3>
-                Somos la respuesta a sus necesidades contables.
-                Ya sea que sus preocupaciones inmediatas se relacionen
-                con impuestos, nómina, contabilidad o declaraciones de rent,
-                vale la pena buscar los servicios de unos profesionales confiables.
-                
-              </h3>
-            </div>
-            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
-              <form class="form-inline">
-                <div class="form-group">
-                <div class="form-group">
-                  <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">
-                    Contactar por Whatsapp
-                  </button>
+
+
+          <div class="item">
+            <img src="img/contaduria3.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
+                <h2>Servicio de asesoria contable</h2>
+              </div>
+              <div class="col-md-10 col-md-offset-1">
+                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                  <p>Somos la respuesta a sus necesidades contables.
+                    Ya sea que sus preocupaciones inmediatas se relacionen
+                    con impuestos, nómina, contabilidad o auditorías,
+                    vale la pena buscar los servicios de unos profesionales confiables.
+                  </p>
                 </div>
-              </form>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
+                <form class="form-inline">
+                  <div class="form-group">
+                    <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Contactar via Whatsapp</button>
+                  </div>
+                  
+                </form>
+              </div>
             </div>
           </div>
+          
         </div>
+
+        <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+
+        <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
       </div>
+      <!--/#carousel-slider-->
     </div>
+    <!--/#about-slider-->
   </div>
+  <!--/#slider-->
+
+
+ 
+
+
+  
+
+
   <footer>
     <div class="container">
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
         <h4>Quienes Somos</h4>
-        <p>
-          Nuestra misión es brindar a nuestros clientes servicios contables
+        <p>Nuestra misión es brindar a nuestros clientes servicios contables
           y relacionados de excelente calidad,
-          que satisfagan sus necesidades y mejoren su calidad de vida.
-        </p>
+          que satisfagan sus necesidades y mejoren su calidad de vida.</p>
         <div class="contact-info">
           <ul>
-            <li><i class="fa fa-home fa"></i>Cali, Valle del Cauca </li>
+            <li><i class="fa fa-home fa"></i>Cali, Valle del cauca </li>
             <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
-            <li><i class="fa fa-envelope fa"></i> fanyzuleima@gmail.com</li>
+            <li><i class="fa fa-envelope fa"></i> fany@gmail.com</li>
           </ul>
         </div>
       </div>
 
+    
+
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
         <div class="">
           <h4>Contactanos</h4>
-          <p>
-            Ingresa tu correo y te escribiremos
-          </p>
+          <p>Ingresa tu correo y te escribiremos</p>
           <div class="btn-gamp">
             <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
           </div>
@@ -127,7 +144,32 @@
     </div>
   </footer>
 
- 
+  <div class="sub-footer">
+    <div class="container">
+      <div class="social-icon">
+        <div class="col-md-4">
+          <ul class="social-network">
+            <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-md-offset-4">
+        <div class="copyright">
+          &copy; ProOnliPc Theme. All Rights Reserved.
+          <div class="credits">
+        
+            <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriber">ProOnliPc Themes</a> by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriber">ProOnliPc</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
